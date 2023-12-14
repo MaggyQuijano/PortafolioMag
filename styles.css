@@ -17,7 +17,7 @@ h1{
 body{
     background-color:#F2D5D5;
 }
-h3,h2,p,ul,h4{
+h3,h2,p,ul,h4,ol {
     font-family:"Kalam";
     text-align: center;
     font-size: 25px;
@@ -45,16 +45,10 @@ div .container {
     
 }
 
-
-
-ul{
-    list-style: none;
-   
-}
-ul li{
+ul li,ol li{
     display: inline;
     font-size: 25px;
-    margin-right: 35px;
-
+    margin-right: 55px;
+    list-style: none;
 
 }
