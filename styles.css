@@ -21,20 +21,26 @@ h3,h2,p,ul,h4{
     font-family:"Kalam";
     text-align: center;
     font-size: 25px;
-
-    
-
-
 }
 
+p{
+    text-align: justify;
+    justify-content: center;
+}
+div .container {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
 .container{
     background-color: antiquewhite;
-    display: flex;
     width: 60%;
     border: none;
     border-radius: 10px;
-    align-items: center;
     justify-content: center;
+    padding: 30px;
+    margin: auto; 
+    text-align: center;
 
     
 }
