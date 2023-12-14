@@ -1,0 +1,54 @@
+.computadoras img{
+    width: 300px;
+    border-radius: 350px;
+}
+.computadoras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family:"Kalam";
+    font-size: 3rem;
+    margin: 40px;
+    text-align: center;
+}
+body{
+    background-color:#F2D5D5;
+}
+h3,h2,p,ul,h4{
+    font-family:"Kalam";
+    text-align: center;
+    font-size: 25px;
+
+    
+
+
+}
+
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+
+ul{
+    list-style: none;
+   
+}
+ul li{
+    display: inline;
+    font-size: 25px;
+    margin-right: 35px;
+
+
+}
