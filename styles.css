@@ -11,20 +11,23 @@
 h1{
     font-family:"Kalam";
     font-size: 3rem;
-    margin: 40px;
+    margin: 45px;
     text-align: center;
 }
 body{
     background-color:#F2D5D5;
 }
-h3,h2,p,ul,h4,ol {
+h2,p,ul,ol {
     font-family:"Kalam";
     text-align: center;
-    font-size: 25px;
+
+}
+h2{
+    font-size: 35px;
 }
 
 p{
-    text-align: justify;
+    text-align: center;
     justify-content: center;
 }
 div .container {
@@ -32,7 +35,7 @@ div .container {
     justify-content:  center;
     align-items: center;
 }
-.container{
+.texto{
     background-color: antiquewhite;
     width: 60%;
     border: none;
@@ -40,15 +43,33 @@ div .container {
     justify-content: center;
     padding: 30px;
     margin: auto; 
-    text-align: center;
-
-    
+    text-align: center;    
 }
 
-ul li,ol li{
+ul li,ol li, a{
     display: inline;
     font-size: 25px;
     margin-right: 55px;
     list-style: none;
 
 }
+
+
+.container{
+    /*Estás propiedades colocan las tarjetas en el centro de la pagina, se debe aplicar al contenedor padre que almacena las tarjetas*/
+    display: flex;
+    width: 100%;
+    justify-content: center;   
+   
+}
+
+img{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: px 2px 3px;
+}
+
