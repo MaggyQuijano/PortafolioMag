@@ -1,6 +1,5 @@
 .computadoras img{
     width: 300px;
-    border-radius: 350px;
 }
 .computadoras {
     display: flex;
@@ -11,11 +10,14 @@
 h1{
     font-family:"Kalam";
     font-size: 3rem;
-    margin: 45px;
     text-align: center;
 }
 body{
-    background-color:#F2D5D5;
+    /* background-color:#F2D5D5; */
+    background-image: url(https://img.freepik.com/vector-premium/fondo-unicornio-rosa-cielo-color-degradado-pastel-brillo-espacio-galaxia-magica-estrellas_501173-1212.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+
 }
 h2,p,ul,ol {
     font-family:"Kalam";
@@ -29,6 +31,8 @@ h2{
 p{
     text-align: center;
     justify-content: center;
+    font-size: 25px;
+
 }
 div .container {
     display: flex;
@@ -39,11 +43,12 @@ div .container {
     background-color: antiquewhite;
     width: 60%;
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
     justify-content: center;
     padding: 30px;
     margin: auto; 
-    text-align: center;    
+    text-align: center;  
+    font-size: 25px;  
 }
 
 ul li,ol li, a{
@@ -56,7 +61,6 @@ ul li,ol li, a{
 
 
 .container{
-    /*Estás propiedades colocan las tarjetas en el centro de la pagina, se debe aplicar al contenedor padre que almacena las tarjetas*/
     display: flex;
     width: 100%;
     justify-content: center;   
@@ -71,5 +75,27 @@ img{
     display: block;
     border-radius: 10px;
     box-shadow: px 2px 3px;
+}
+.tarjetas{
+    width: 250px;
+    height: 50px;
+    /* padding: 10px; */
+}
+.todaslastarjetas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    padding-top: 170px;
+}
+.nombredeproyecto {
+    margin: 0;
+
+    display: flex;
+    text-align: center;
+    font-size: larger;
+
+
 }
 
