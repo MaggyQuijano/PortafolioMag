@@ -89,7 +89,7 @@ ul li,ol li, a{
     align-items: center;
     justify-content: center;
 }
-footer{
+footer {
     padding-top: 170px;
 }
 .nombredeproyecto {
@@ -97,7 +97,6 @@ footer{
     display: flex;
     text-align: center;
     font-size: larger;
-
-
 }
+
 
