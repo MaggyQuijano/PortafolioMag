@@ -1,102 +1,40 @@
-.computadoras img{
-    width: 300px;
-}
-.computadoras {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h1{
-    font-family:"Kalam";
-    font-size: 3rem;
-    text-align: center;
-}
 body{
-    /* background-color:#F2D5D5; */
-    background-image: url(https://img.freepik.com/vector-premium/fondo-unicornio-rosa-cielo-color-degradado-pastel-brillo-espacio-galaxia-magica-estrellas_501173-1212.jpg);
-    background-repeat: no-repeat;
-    background-size: 200%;
-
+    background-color: #260101;
+    color: aliceblue;
 }
-h2,p,ul,ol {
-    font-family:"Kalam";
+.horizontal-list {
+    list-style-type: none; 
+    padding-right: 150px; 
+    margin-top: 30px;
+
+    text-align: right;
+}
+
+.horizontal-list li {
+    display: inline; 
+    margin-inline: 20px; 
+    
+}
+
+.link {
+    text-decoration: none; 
+    color: #FF45DA; 
+}
+
+.link:hover {
+    color: #c98abb; 
+}
+
+h1 {
     text-align: center;
-
+    margin-top: 90px;
+    color:#ff3b93;
 }
-h2{
-    font-size: 35px;
+span{
+    color:#55ffe2;
 }
-
-p{
-    text-align: center;
+.foto{
+    display: flex;
     justify-content: center;
-    font-size: 25px;
-
+    
 }
-div .container {
-    display: flex;
-    justify-content:  center;
-    align-items: center;
-}
-.texto{
-    background-color: antiquewhite;
-    width: 60%;
-    border: none;
-    border-radius: 30px;
-    justify-content: center;
-    padding: 30px;
-    margin: auto; 
-    text-align: center;  
-    font-size: 25px;  
-}
-
-ul li,ol li, a{
-    display: inline;
-    font-size: 25px;
-    margin-right: 55px;
-    list-style: none;
-
-}
-
-
-.container{
-    display: flex;
-    width: 100%;
-    justify-content: center;   
-   
-}
-
-.google {
-    width: 200px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 10px;
-    box-shadow: px 2px 3px;
-    cursor: url(img/cursor\ nube.png),auto;
-}
-.tarjetas{
-    width: 250px;
-    height: 50px;
-    /* padding: 10px; */
- 
-
-}
-.todaslastarjetas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-footer {
-    padding-top: 170px;
-}
-.nombredeproyecto {
-    margin: 0;
-    display: flex;
-    text-align: center;
-    font-size: larger;
-}
-
-
